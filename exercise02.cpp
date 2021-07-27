@@ -28,12 +28,12 @@ int main() {
     cout << "Volume of Box is " << totalVolume << endl;
     
     return 0;
-    }
-int volume(int height, int width, int length){
-int answer;
-
-answer = height * width * length;
-return answer;
 }
 
 // Implement the Volume() function here
+int volume(int height, int width, int length){
+int answer;
+answer = height*width*length;
+return answer;
+
+}
